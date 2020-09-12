@@ -155,7 +155,7 @@ function gameOver() {
   let lasers = document.querySelectorAll(".laser")
   lasers.forEach(laser => laser.remove())
   setTimeout(() => {
-    alert(`Game Over! The monsters made it to Earth. Your final score is ${scoreCounter.innerText}!`)
+    alert(`Game Over! The enemies made it . Your final score is ${scoreCounter.innerText}!`)
     shooter.style.top = "180px"
     startButton.style.display = "block"
     instructions.style.display = "block"
